@@ -1,0 +1,83 @@
+*{ padding: 0;
+    margin: 0;   
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    }
+    
+    .back {
+    width: 100%;
+    min-height: 100vh;
+background-image: url(assets/245000.jpg);
+background-position: -5% 5%;
+    color: #fff;
+    padding: 10px 8%;
+    position: relative;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px 8%;
+        display: flex;
+        align-items: center;
+        z-index: 10;
+    }
+    nav img{
+        width: 75px;
+    }
+    nav ul{
+        flex: 1;
+        text-align: center;
+    }
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 5px 15px;
+    }
+    nav a{
+        text-decoration: none;
+        color: #fff;
+    }
+    nav a :last-child
+    {
+        padding: 20px 40px;
+        background: #fff;
+        border: 0;
+        outline: 0;
+        top: 0;
+        margin-right: -15px;
+        border-radius: 50px;
+        font-weight:500;
+        cursor: pointer;
+    }
+    
+    .text-box{
+      margin-top: 18%;
+      max-width: 600px;
+    }
+    .text-box h1
+    {
+        font-size: 70px;
+        line-height: 90px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .text-box p{
+        line-height: 28px;
+    }
+    .text-box button{
+        padding: 20px 40px;
+        background: #fff;
+        border: 0;
+        outline: 0;
+        margin-top: 40px;
+        margin-right: 10px;
+        border-radius: 50px;
+        font-weight:500;
+        cursor: pointer;
+    }
+    .text-box button :last-child {
+        background: #252625;
+        color: #fff;
+    }
